@@ -1,0 +1,54 @@
+*{
+  background-color: #008080;
+}
+
+.container{
+  width:560;
+  margin:auto;
+  height:500px;
+}
+
+.container h1{
+  text-align: center;
+  letter-spacing: 0.1em;
+  background-color: #fc4568;
+  padding: 40px;
+  opacity: 0.9;
+  font-size:40px;
+}
+
+i{
+  color:yellow;
+}
+
+.headings{
+  font-size: 40px;
+  font-family: Arial;
+  height: 50px;;
+  text-align: center;
+  border: 1px solid red;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:5px;
+  letter-spacing: 1px;
+
+}
+
+.headings span{
+  border: 1px solid black;
+  background-color:  #fc4568;
+  color: white;
+}
+
+#seconds,#minutes,#days,#hours{
+  background-color: #fc4568;
+}
+
+#seconds{
+  color:yellow;
+}
+
+/* .data span{
+  border: 1px solid black;
+} */
